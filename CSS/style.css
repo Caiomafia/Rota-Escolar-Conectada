@@ -1,0 +1,27 @@
+*{margin: 0%;}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 150px;
+  }
+  .logo{width:20%; margin:10px; }
+  .nav{color: white; text-decoration: none; display: flex; flex-direction: row; align-items: center;  margin-left:56px ;    }
+
+.nav a {color: white;   padding: 5px;}
+
+.nav a:hover {color: red; text-decoration: solid;}
+
+
+/*PRINCIPAL */
+
+
+
+  .principal{
+
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
