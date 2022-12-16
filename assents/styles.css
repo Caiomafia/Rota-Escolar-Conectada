@@ -28,16 +28,21 @@ a:hover {
 
 
 
-#menu a {
+/* Menu Mobile */
+@media screen and (max-width:500px) {
+  
+
+#menuMobile a {
   display: block;
   padding: 0.5rem;
+  
 }
 
 #btn-mobile {
   display: none;
 }
 
-  #menu {
+  #menuMobile {
     display: block;
     position: absolute;
     width: 100%;
@@ -50,12 +55,12 @@ a:hover {
     visibility: hidden;
     overflow-y: hidden;
   }
-  #nav.active #menu {
+  #nav.active #menuMobile {
     height: calc(100vh - 70px);
     visibility: visible;
     overflow-y: auto;
   }
-  #menu a {
+  #menuMobile a {
     padding: 1rem 0;
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
@@ -95,7 +100,20 @@ a:hover {
     transform: rotate(-135deg);
     top: -7px;
   }
+}
 
+
+/*Menu*/
+
+.menu li{
+  list-style: none;
+  margin-right: 50px;
+}
+
+.menu{display: flex; margin-left: 15px; justify-content: space-evenly;   }
+
+
+#btn-mobile{display: none;}
 
 
 /*Logo*/
@@ -111,7 +129,7 @@ a:hover {
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:750px){
   .produtos{background-color: aquamarine; display: flex; flex-direction: column; justify-items: center; align-items: center; padding: 1rem; margin-bottom: 15px;}
   .bodyProduto{margin-bottom: 15px;}
 }
@@ -123,14 +141,20 @@ a:hover {
 
 .bodyProduto{
     width: 250px;
-    border: 1px solid rgba(0, 0, 0, 0.466);
     border-radius: 10px;
     text-align: center;
 }
 
 
+
+.bodyProduto:hover{border: 1px solid rgb(177, 177, 177);
+ 
+}
+
+
+
 .produtoSobre{
-    border-top: 1px solid rgba(0, 0, 0, 0.548);
+    
     width: 250px;
 }
 
@@ -151,4 +175,10 @@ border-radius: 10px;
 
 
 .btn:hover{background-color: rgba(255, 0, 0, 0.432); cursor: pointer; color: black;}
-h2{direction: ;}
+
+
+/* Novas   */
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+h2{font-family: 'La Belle Aurore', cursive; text-align: center; margin-top: 20px; margin-bottom: 20px;  font-size: 20px;}
