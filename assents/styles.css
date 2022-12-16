@@ -118,7 +118,7 @@ a:hover {
 
 /*Logo*/
 
-.logo{width: 100px;}
+.logo{width: 190px; margin-top: 20px;}
 
 
 /* Produtos */
@@ -133,6 +133,8 @@ a:hover {
   .produtos{background-color: aquamarine; display: flex; flex-direction: column; justify-items: center; align-items: center; padding: 1rem; margin-bottom: 15px;}
   .bodyProduto{margin-bottom: 15px;}
 }
+
+
 
 
 
