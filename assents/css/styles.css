@@ -1,0 +1,122 @@
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+
+
+#header {
+  box-sizing: border-box;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  position: relative;
+}
+
+
+
+
+
+
+/*Menu*/
+
+.menu li{
+  list-style: none;
+  margin-right: 50px;
+}
+
+.menu{display: flex; margin-left: 15px; justify-content: space-evenly;   }
+
+
+#btn-mobile{display: none;}
+
+
+/*Logo*/
+
+.logo{width: 190px; margin-top: 20px;}
+
+
+/* Produtos */
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bodyProduto{
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.bodyProduto:hover{border: 1px solid rgb(177, 177, 177);
+ 
+}
+
+.produtoSobre{
+    
+    width: 250px;
+}
+
+
+.footerProdut{ display: flex; justify-content: space-evenly;}
+
+
+/*btn de compra */
+
+
+.btn{display: none;}
+
+
+.btn:hover{ display: flex;   height: 50px;  width: 100px;   background-color: red; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: none;
+color: white;
+border-radius: 10px;
+
+}
+
+
+.btn:hover{background-color: rgba(255, 0, 0, 0.432); cursor: pointer; color: black;}
+
+
+
+
+/*concluido*/
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+h2{font-family: 'La Belle Aurore', cursive; text-align: center; margin-top: 20px; margin-bottom: 20px;  font-size: 20px;}
+
+
+
+
+
+/*Teste de mudança*/
+.sonorização{display: flex; width:100% ; text-align: center; }
+.sonorização1{width: auto;}
+.sonorização2{width: auto;}
+.imgSom{width: 100%;}
+
+
+
+
+
+
+
+
