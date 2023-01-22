@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do GPT</title>
+</head>
+<body>
+    
+<div id="carousel">
+    <div class="slide"><img src="https://http2.mlstatic.com/D_NQ_NP_938639-MLB52003456716_102022-O.webp" alt=""></div>
+    <div class="slide"><img src="https://http2.mlstatic.com/D_NQ_NP_619313-MLB52002700356_102022-O.webp" alt=""></div>
+    <div class="slide"><img src="https://http2.mlstatic.com/D_NQ_NP_663351-MLB52002753161_102022-O.webp" alt=""></div>
+  </div>
+  
+  <button id="prev">Anterior</button>
+  <button id="next">Próximo</button>
+  
+  <script>
+    // Obtenha referências para os elementos do carrossel
+    var carousel = document.getElementById("carousel");
+    var slides = carousel.children;
+    var prevButton = document.getElementById("prev");
+    var nextButton = document.getElementById("next");
+  
+    // Inicialize o índice do slide atual
+    var currentSlide = 0;
+  
+    // Esconda todos os slides, exceto o primeiro
+    for (var i = 1; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+  
+    // Defina uma função para mostrar o slide anterior
+    prevButton.onclick = function() {
+      // Esconda o slide atual
+      slides[currentSlide].style.display = "none";
+      // Decremente o índice do slide atual, voltando para o último slide se for preciso
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      // Mostre o slide anterior
+      slides[currentSlide].style.display = "block";
+    };
+  
+    // Defina uma função para mostrar o próximo slide
+    nextButton.onclick = function() {
+      // Esconda o slide atual
+      slides[currentSlide].style.display = "none";
+      // Incremente o índice do slide atual, voltando para o primeiro slide se for preciso
+      currentSlide = (currentSlide + 1) % slides.length;
+      // Mostre o próximo slide
+      slides[currentSlide].style.display = "block";
+    };
+  </script>
+  
+  <script src=""></script>
+</body>
+</html>
+
