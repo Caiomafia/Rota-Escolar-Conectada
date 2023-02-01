@@ -1,17 +1,6 @@
-const btnMobile = document.getElementById('btn-mobile');
+var menu = document.querySelector(".menu");
+var toggle = document.querySelector(".toggle-menu");
 
-function toggleMenu(event) {
-  if (event.type === 'touchstart') event.preventDefault();
-  const nav = document.getElementById('nav');
-  nav.classList.toggle('active');
-  const active = nav.classList.contains('active');
-  event.currentTarget.setAttribute('aria-expanded', active);
-  if (active) {
-    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
-  } else {
-    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
-  }
-}
-
-btnMobile.addEventListener('click', toggleMenu);
-btnMobile.addEventListener('touchstart', toggleMenu);
+toggle.addEventListener("click", function () {
+  menu.classList.toggle("active");
+});

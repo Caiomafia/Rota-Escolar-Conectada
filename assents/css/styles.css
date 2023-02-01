@@ -34,15 +34,42 @@ a:hover {
 
 /*Menu*/
 
-.menu li{
-  list-style: none;
-  margin-right: 50px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.menu{display: flex; margin-left: 15px; justify-content: space-evenly;   }
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+.menu li {
+  margin: 0 10px;
+}
 
-#btn-mobile{display: none;}
+.toggle-menu {
+  display: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+
+  .toggle-menu {
+    display: block;
+  }
+}
 
 
 /*Logo*/
@@ -101,7 +128,6 @@ border-radius: 10px;
 
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
-h2{font-family: 'La Belle Aurore', cursive; text-align: center; margin-top: 20px; margin-bottom: 20px;  font-size: 20px;}
 
 
 
