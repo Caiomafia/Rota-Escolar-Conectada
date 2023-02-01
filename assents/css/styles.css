@@ -142,7 +142,11 @@ border-radius: 10px;
 
 
 
+/*Carrosel */
 
+#carousel-slide{
+  width: 100px;
+}
 
 
 
