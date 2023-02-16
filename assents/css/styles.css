@@ -1,0 +1,10 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
