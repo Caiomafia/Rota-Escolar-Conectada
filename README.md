@@ -1,4 +1,4 @@
-<h1 align="center"> Mirasom </h1>
+<h1 align="center"> Van Escolar</h1>
 
 <p align="center"> Projeto em construção  </p>
 
