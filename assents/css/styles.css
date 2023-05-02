@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+.container{
+
+display:flex;
+flex-direction: column;
+align-items: center;
+
+
+
+}
+
+
+
+
+.aluno{
+    display: flex;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(158, 0, 0);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BodyAluno{
+    margin-top: 10px;
+}
+
+
+.btnalunos > button{
+    background-color: blue;
+    color: white;
+    border:  1px solid black;
+    border-radius: 30%;
+    width: 80px;
+}
