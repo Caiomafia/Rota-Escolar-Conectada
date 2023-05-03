@@ -48,10 +48,27 @@ align-items: center;
 }
 
 
-.btnalunos > button{
+
+
+
+
+
+/*BTN*/
+
+#BtnConcluir{
     background-color: blue;
     color: white;
     border:  1px solid black;
-    border-radius: 30%;
+    border-radius: 18%;
     width: 80px;
+}
+
+button:hover{
+    background-color: rgb(38, 38, 156);
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
 }
