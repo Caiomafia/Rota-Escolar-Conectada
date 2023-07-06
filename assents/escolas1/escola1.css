@@ -186,21 +186,22 @@ border-radius: 10%;
     }
 }
 
-.btnEntregue , .btnBuscar{
-  padding: 3px;
-  width: 70px;
-  translate: uppercase;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  background-color: #090979;
 
-  border-radius: 2px;
-  border: none;
-
-  font-size: 17px;
-
-}
 
 span {
   color: white;
+}
+
+/*BTNS*/
+
+.btnEntregue , .btnBuscar{
+  display: inline-block;
+      padding: 10px 20px;
+      background-color:red;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bolder;
+      transition: background-color 0.3s
+
 }

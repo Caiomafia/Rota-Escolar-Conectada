@@ -6,7 +6,7 @@ const entregueColor = document.querySelectorAll(".btnEntregue");
 
 function changeColor(event) {
   const button = event.target;
-  button.style.backgroundColor = "red" ;
+  button.style.backgroundColor = "green" ;
   button.innerHTML = "ok";
   
 }
@@ -46,3 +46,5 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+
