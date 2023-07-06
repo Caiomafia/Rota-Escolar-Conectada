@@ -9,7 +9,7 @@
 
 
 body{
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -22,9 +22,9 @@ ul {
 }
 
 a {
-  color: black;
+
   text-decoration: none;
-  font-family: sans-serif;
+  font-family:'Roboto' sans-serif;
 }
 
 a:hover {
@@ -42,7 +42,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #e7e7e7;
+  background: #afafaf;
 }
 
 #menu {
@@ -141,17 +141,7 @@ a:hover {
 
 
 
-.bodyaluno{
-  width: 200px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 14px;
-  background-color: rgb(81, 82, 77);
-  border-radius: 2%;
-  
-}
+
 
 
 
@@ -165,8 +155,25 @@ border-radius: 10%;
 
 
 .btnEntregue , .btnBuscar{
-  padding: 3px;
-  translate: uppercase;
+  display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bolder;
+      transition: background-color 0.3s
 
 }
 
+.bodyaluno{
+  width: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 2%;
+  
+}
