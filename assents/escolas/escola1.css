@@ -7,7 +7,12 @@
     box-sizing: border-box;
 }
 
-body,
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(6,79,167,1) 45%, rgba(0,212,255,1) 100%);
+}
+
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -35,7 +40,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0957ff;
+  background:#090979;
   color: white;
 }
 
@@ -129,7 +134,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: topdown 700ms beckwars;
+    animation : moveup 2s ;
   }
   
 
@@ -139,12 +144,15 @@ a:hover {
 
 .bodyaluno{
   width: 200px;
-  height: 250px;
+  height: 270px;
+  margin-top: 20px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 14px;
-  background-color: rgb(148, 145, 145);
+
+
+  background-color: rgb(255, 255, 255);
   border-radius: 2%;  
 }
 
@@ -163,18 +171,36 @@ border-radius: 10%;
 
 
 
-@keyframes topdown{
+@keyframes moveup{
     0%{
-        /*começo */
+        
         opacity:0 ;
-        /*valor negativo para vim de cima para baixo */
-        transform:translateY(-15px) ;
+       
+        transform:translateY(-20px) ;
         
     }
-/*Fim voltar ao padrão*/
+
     100%{
  opacity: 1;
  transform: translateY(0);
     }
 }
 
+.btnEntregue , .btnBuscar{
+  padding: 3px;
+  width: 70px;
+  translate: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #090979;
+
+  border-radius: 2px;
+  border: none;
+
+  font-size: 17px;
+
+}
+
+span {
+  color: white;
+}

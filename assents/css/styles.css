@@ -1,6 +1,4 @@
 
-/*modificações*/
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 * {
     padding: 0;
@@ -9,7 +7,15 @@
     box-sizing: border-box;
 }
 
-body,
+
+body{
+  background-color: black;
+}
+
+
+
+
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -142,7 +148,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 14px;
-  background-color: black;
+  background-color: rgb(81, 82, 77);
   border-radius: 2%;
   
 }
@@ -158,4 +164,9 @@ border-radius: 10%;
 }
 
 
+.btnEntregue , .btnBuscar{
+  padding: 3px;
+  translate: uppercase;
+
+}
 
