@@ -11,13 +11,13 @@
 
 
 :root{
- --color--menu:rgb(238, 255, 0);
+ --color--menu:rgb(156, 106, 238);
 
- --color--body:rgb(248, 248, 248);
+ --color--body:rgb(226, 226, 226);
 
- --color--cards:#f1f3f4;
+ --color--cards:white;
 
---color--btns:rgb(7, 7, 7);
+--color--btns:rgb(156, 106, 238);
 
  }
 
@@ -37,6 +37,12 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+
+
+header a {
+  color: rgb(2, 2, 2);
+}
+
 
 a {
 
@@ -113,6 +119,7 @@ a:hover {
     background: none;
     cursor: pointer;
     gap: 0.5rem;
+    color: white;
   }
   #hamburger {
     border-top: 2px solid;
