@@ -11,11 +11,13 @@
 
 
 :root{
- --color--menu:yellow;
+ --color--menu:rgb(255, 1, 179);
 
- --color--body:rgb(255, 255, 255);
+ --color--body:rgb(208, 19, 255);
 
  --color--cards:#f1f3f4;
+
+--color--btns:rgb(7, 7, 7);
 
  }
 
@@ -161,7 +163,7 @@ border-radius: 10%;
 .btnEntregue , .btnBuscar{
   display: inline-block;
       padding: 10px 20px;
-      background-color:red;
+      background-color:var(--color--btns);
       color: #fff;
       text-decoration: none;
       border-radius: 4px;

@@ -10,12 +10,15 @@
 
 :root{
 
---color-body:linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(6,79,167,1) 45%, rgba(0,212,255,1) 100%);
+--color-body: radial-gradient(circle at 50% -20.71%, #c3ff00 0, #9eff00 16.67%, #6ffd00 33.33%, #00ef00 50%, #00e110 66.67%, #00d625 83.33%, #00ce39 100%);;
 
---color-menu:green;
+--color-menu:rgb(255, 255, 255);
 
 --color-cards:white;
 
+--menu--btn:rgb(0, 0, 0);
+
+--btns--BuscarPEgar:black;
 
 }
 
@@ -203,7 +206,7 @@ border-radius: 10%;
 
 
 span {
-  color: white;
+  color:var(--menu--btn);
 }
 
 /*BTNS*/
@@ -211,7 +214,7 @@ span {
 .btnEntregue , .btnBuscar{
   display: inline-block;
       padding: 10px 20px;
-      background-color:red;
+      background-color:var(--btns--BuscarPEgar);
       color: #fff;
       text-decoration: none;
       border-radius: 4px;
