@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,28 +9,28 @@
 }
 
 
+
 :root{
+ --color--menu:rgb(4, 9, 54);
 
---color-body: radial-gradient(circle at 50% -20.71%, #c3ff00 0, #9eff00 16.67%, #6ffd00 33.33%, #00ef00 50%, #00e110 66.67%, #00d625 83.33%, #00ce39 100%);;
+ --color--body:rgb(248, 248, 248);
 
---color-menu:rgb(255, 255, 255);
+ --color--cards:rgb(0, 0, 0);;
 
---color-cards:white;
+--color--btns:rgb(243, 231, 231);
 
---menu--btn:rgb(0, 0, 0);
+ }
 
---btns--BuscarPEgar:rgb(0, 0, 0);
 
---fonts--btns:black;
-
-}
 
 
 
 body{
-  background: rgb(2,0,36);
-background: var(--color-body)
+  background-color: var(--color--body);
 }
+
+
+
 
 
 ul {
@@ -38,9 +39,9 @@ ul {
 }
 
 a {
-  color: black;
+
   text-decoration: none;
-  font-family: sans-serif;
+  font-family:'Roboto' sans-serif;
 }
 
 a:hover {
@@ -48,8 +49,7 @@ a:hover {
 }
 
 #logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+ width: 60px;
 }
 
 #header {
@@ -59,8 +59,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:var(--color-menu);
-  color: white;
+  background-color: var(--color--menu);
 }
 
 #menu {
@@ -145,41 +144,13 @@ a:hover {
 
 
 /*corpo */
-
-
-
-  
+ 
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation : moveup 2s ;
   }
   
-
-
-
-
-
-.bodyaluno{
-  width: 200px;
-  height: 270px;
-  margin-top: 20px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-
-  background-color:var(--color-cards);
-  border-radius: 2%;  
-}
-
-
-.namealunos {
-    margin-bottom: 0.8rem;
-    text-align: center;
-}
 
 .imgPerfil{
   width: 150px;
@@ -189,38 +160,29 @@ border-radius: 10%;
 }
 
 
-
-@keyframes moveup{
-    0%{
-        
-        opacity:0 ;
-       
-        transform:translateY(-20px) ;
-        
-    }
-
-    100%{
- opacity: 1;
- transform: translateY(0);
-    }
-}
-
-
-
-span {
-  color:var(--menu--btn);
-}
-
-/*BTNS*/
-
 .btnEntregue , .btnBuscar{
   display: inline-block;
       padding: 10px 20px;
-      background-color:var(--btns--BuscarPEgar);
-      color: var(--fonts--btns);
+      background-color:var(--color--btns);
+      color: #fff;
       text-decoration: none;
       border-radius: 4px;
       font-weight: bolder;
       transition: background-color 0.3s
 
+}
+
+.bodyaluno{
+  width: 220px;
+  height: 220px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 14px;
+
+  background-color: var(--color--cards);
+  border-radius: 2%;
+  
 }

@@ -13,13 +13,29 @@ background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(6
 }
 
 
+:root{
+
+  --btns--BuscarPEgar:rgb(78, 77, 77);
+
+  --fonts--btns:white;
+
+
+
+}
+
+
+
+
+
+
+
 ul {
   margin: 0px;
   padding: 0px;
 }
 
 a {
-  color: black;
+  color: rgb(221, 221, 221);
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -197,11 +213,12 @@ span {
 .btnEntregue , .btnBuscar{
   display: inline-block;
       padding: 10px 20px;
-      background-color:red;
-      color: #fff;
+      background-color:var(--btns--BuscarPEgar);
+      color: var(--fonts--btns);
       text-decoration: none;
       border-radius: 4px;
       font-weight: bolder;
       transition: background-color 0.3s
 
+}
 }
