@@ -18,9 +18,9 @@
 
 --menu--btn:rgb(0, 0, 0);
 
---btns--BuscarPEgar:rgb(0, 0, 0);
+--btns--BuscarPEgar:rgb(20, 95, 10);
 
---fonts--btns:black;
+--fonts--btns:rgb(238, 231, 231);
 
 }
 
@@ -220,6 +220,7 @@ span {
       color: var(--fonts--btns);
       text-decoration: none;
       border-radius: 4px;
+      border: none;
       font-weight: bolder;
       transition: background-color 0.3s
 

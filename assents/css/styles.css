@@ -184,5 +184,7 @@ border-radius: 10%;
 
   background-color: var(--color--cards);
   border-radius: 2%;
+
+  border: none;
   
 }
