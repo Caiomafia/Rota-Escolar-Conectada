@@ -47,3 +47,7 @@ function entreColor(event){
 entregueColor.forEach(function(button) {
     button.addEventListener("click" , entreColor)
  })
+
+
+
+ btnBuscar.addEventListener("click" , )
