@@ -12,6 +12,8 @@ function toggleMenu(event) {
   } else {
     event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
   }
+
+  alert('mensagem no celular do pai ')
 }
 
 btnMobile.addEventListener('click', toggleMenu);
@@ -19,8 +21,9 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 
 
 
-
-
+function aviso(){
+  alert("Mensagem para o pai e mãe do aluno")
+}
 
 const colorButtons = document.querySelectorAll(".btnBuscar");
 const entregueColor = document.querySelectorAll(".btnEntregue");
