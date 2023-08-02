@@ -10,6 +10,10 @@ Esse projeto foi criado para trazer mais agilidade a van escolar da ana , que re
 
 
 ## Teste
+
+<img src="vanrotas.gif" class ="photo" height="700px">
+
+
 ## Stack utilizada
 
 **Front-end:** Boostrap , Javascript , CSS , HTML
@@ -25,5 +29,6 @@ Esse projeto foi criado para trazer mais agilidade a van escolar da ana , que re
 
 
 ## Melhorias
-
-
+Comunicação entre sistema  e whatsapp []
+Central de pagamentos []
+Desing []
