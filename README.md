@@ -11,7 +11,7 @@ Esse projeto foi criado para trazer mais agilidade a van escolar da ana , que re
 
 ## Teste
 
-<img src="vanrotas.gif" class ="photo" height="700px">
+<img src="vanrotas.gif" class ="photo" height="500px">
 
 
 ## Stack utilizada
