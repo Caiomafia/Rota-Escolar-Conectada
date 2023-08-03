@@ -1,4 +1,40 @@
 
+
+const colorButtons = document.querySelectorAll(".btnBuscar");
+const entregueColor = document.querySelectorAll(".btnEntregue");
+
+
+function changeColor(event) {
+  const button = event.target;
+  button.style.backgroundColor = "green" ;
+  button.innerHTML = "ok";}
+  
+
+
+colorButtons.forEach(function(button) {
+  button.addEventListener("click", changeColor );
+});
+
+
+function entreColor(event){
+    const button = event.target;
+    button.style.backgroundColor = " green";
+    button.innerHTML = "Enviado"
+    alert("Mensagem enviada");
+}
+
+entregueColor.forEach(function(button) {
+    button.addEventListener("click" , entreColor)
+ })
+
+
+
+
+
+
+
+ //btns
+
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(event) {
@@ -12,43 +48,7 @@ function toggleMenu(event) {
   } else {
     event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
   }
-
+}
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
-
-
-
-function aviso(){
-  alert("Mensagem enviado aos pais ")
-}
-
-const colorButtons = document.querySelectorAll(".btnBuscar");
-const entregueColor = document.querySelectorAll(".btnEntregue");
-
-
-function changeColor(event) {
-  const button = event.target;
-  button.style.backgroundColor = "green" ;
-  button.innerHTML = "ok";
-  
-}
-
-colorButtons.forEach(function(button) {
-  button.addEventListener("click", changeColor );
-});
-
-
-function entreColor(event){
-    const button = event.target;
-    button.style.backgroundColor = " green";
-    button.innerHTML = "Enviado"
-}
-
-entregueColor.forEach(function(button) {
-    button.addEventListener("click" , entreColor)
- })
-
-
-
- btnBuscar.addEventListener("click" , )
