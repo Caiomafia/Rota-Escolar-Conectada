@@ -16,7 +16,7 @@ Esse projeto foi criado para trazer mais agilidade a van escolar da ana , que re
 
 ## Stack utilizada
 
-**Front-end:** Boostrap , Javascript , CSS , HTML
+**Front-end:** Bootstrap , Javascript , CSS , HTML
 
 **Automações:** Geolocalização para avisar a chegada da van escolar aos alunos , dessa forma agilizando o processo de buscar os alunos , e na hora da entrega avisa aos país que seu filho chego em casa.
 
