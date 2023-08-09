@@ -1,7 +1,7 @@
 
 # Van Escolar 
 
-Esse projeto foi criado para trazer mais agilidade a van escolar da ana , que relato que tinha muitos imprevistos com alunos , e queria ter um maior controle sobre o tempo e passar mais confiança aos pais [Link](https://caiomafia.github.io/VanEscolar-Rotas/)
+  Projeto  em Desenvolvimento para vans escolares visa aprimorar a eficiência e a segurança do transporte de crianças. Através de um sistema de comunicação avançado, os pais recebem mensagens prévias informando sobre o horário exato de busca e alertas de chegada em casa.[Link](https://caiomafia.github.io/VanEscolar-Rotas/)
 
 
 
